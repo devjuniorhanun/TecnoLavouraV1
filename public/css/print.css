@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+/* ==========================================================================
+   Estilos para impressão
+   ========================================================================== */
+
+@media print {
+  html {
+    font-size: 10px;
+    font-family: 'Arial Black', 'Arial Bold', Gadget, sans-serif;
+} 
+@page {
+  size: A4 landscape;
+  font-size: 1px !important;
+  margin: 0;
+  padding: 0;
+}
+
+  .no-print,
+  nav,
+  footer,
+  video,
+  audio,
+  object,
+  embed {
+    display: none;
+  }
+
+  .page-break {
+    page-break-before: always;
+  }
+
+  .testeA{
+    border: 0;
+    height: 60px;
+    overflow: hidden;
+  }
+  .divLinha {
+    height: 36px !important;
+    
+  }
+}
+

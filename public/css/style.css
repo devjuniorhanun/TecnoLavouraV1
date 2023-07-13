@@ -1,0 +1,40 @@
+.recibo {
+  padding: 5px;
+  font-weight: bold;
+  font-size: 50px;
+  text-align: center;
+  color: #000;
+}
+
+.recibos {
+  font-size: 25px;
+  color: #000;
+}
+
+.numeroRecibo {
+  font-size: 25px;
+}
+
+.testeTamanho {
+  height: 400px !important;
+}
+
+#example {
+  height: 365px !important;
+  
+}
+
+#example .col {
+  border: 1px solid black;
+}
+@media print {
+  .no-print,
+  nav,
+  footer,
+  video,
+  audio,
+  object,
+  embed {
+    display: none;
+  }
+}

@@ -1,0 +1,30 @@
+/* ==========================================================================
+   Estilos para impressão
+   ========================================================================== */
+
+@media print {
+  @page {
+    size: A4 landscape;
+    margin:0 !important;
+    padding:0 !important;
+    font: 1px "Times New Roman", Times, serif !important;
+    //font-size: 1px !important;
+    color: rebeccapurple;
+  }
+  .no-print, nav, footer, video, audio, object, embed {
+    display:none;
+    
+  }
+
+  .print {
+    display: block;
+    margin:5 !important;
+    padding:0 !important;
+    font-size: 1px !important;
+    color: rebeccapurple;
+  }
+
+  .page-break {
+    page-break-before: always;
+  }
+}
