@@ -17,7 +17,7 @@
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/y/devjuniorhanun/TecnoLavouraV1)
 
 <h4 align="center"> 
-	🚧  Projeto 🚀 Em construção...  🚧
+	🚧  O TecnoLavouraV1 é um projeto que visa facilitar o gerenciamento de atividades agrícolas em propriedades rurais. Com ele, agricultores e agrônomos podem acompanhar o desenvolvimento das lavouras, registrar informações importantes e tomar decisões baseadas em dados precisos.  🚧
 </h4>
 
 #### Para instalação
